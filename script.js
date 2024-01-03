@@ -15,7 +15,7 @@ $(document).ready(function () {
     displayMessage("Appointment saved!");
 
   });
-//  function to display the appoibtment saved ! 
+//  function to display the appointment saved ! 
   function displayMessage(message)  {
     var messageContainer = $("#messageContainer");
     messageContainer.text(message)

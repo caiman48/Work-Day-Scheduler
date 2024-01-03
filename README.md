@@ -39,6 +39,25 @@ https://github.com/caiman48/Work-Day-Scheduler
 - Type your event or task in the text area provided for each time block.
 - Click the "Save" button to store the entered information.
 
+# Credits 
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
+
+https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem
+
+https://www.w3schools.com/jsref/jsref_split.asp
+
+
+https://stackoverflow.com/questions/26813781/split-string-in-jquery
+
+
+https://stackoverflow.com/questions/7479282/this-vs-this
+
+
+https://www.w3schools.com/jquery/html_removeclass.asp
+
+
+
 
 
 # License

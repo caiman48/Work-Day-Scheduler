@@ -1,7 +1,7 @@
 $(document).ready(function () {
   // Display current date and time
   var displayTime = document.querySelector("#currentDay");
-  var currentTime = dayjs().format("dddd, MMMM D, YYYY, h:mm:ss a");
+  var currentTime = dayjs().format("dddd, MMMM D, YYYY");
   displayTime.textContent = currentTime;
 
   // Save button click listener

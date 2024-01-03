@@ -11,7 +11,20 @@ $(document).ready(function () {
 
     // Save text in local storage
     localStorage.setItem(time, text);
+    
+    displayMessage("Appointment saved!");
+
   });
+//  function to display the appoibtment saved ! 
+  function displayMessage(message)  {
+    var messageContainer = $("#messageContainer");
+    messageContainer.text(message)
+    setTimeout(function () {
+      messageContainer.text("")
+    } ,2000)
+
+  }
+  
 
   // Function to track the hour and apply background indicators
   function hourTracker() {

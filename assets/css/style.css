@@ -3,7 +3,9 @@ body {
   font-size: 16px;
   background: linear-gradient(to right, #a50044 , #004d98);
 }
-
+#messageContainer {
+  color: #ffffff;
+}
 .display-3 {
   color: #ffffff;
 }

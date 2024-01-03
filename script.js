@@ -17,7 +17,7 @@ $(document).ready(function () {
   function hourTracker() {
     var currentHour = dayjs().hour();
 
-    // Loop over time blocks, I dont understand this part 
+    // Loop over time blocks
     $(".time-block").each(function () {
       var blockHour = parseInt($(this).attr("id").split("-")[1]);
 
